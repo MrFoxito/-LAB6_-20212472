@@ -1,0 +1,51 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Balón: circulo blanco con borde oscuro -->
+    <path
+        android:pathData="M12,1 A11,11 0 1,0 12.01,1 Z"
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#212121"
+        android:strokeWidth="0.6" />
+
+    <!-- Lineas tipo costura -->
+    <path
+        android:pathData="M12,8.6 L12,2.6 M9,10.6 L4.3,9.0 M15,10.6 L19.7,9.0 M10.15,14.4 L7.2,19.4 M13.85,14.4 L16.8,19.4"
+        android:strokeColor="#212121"
+        android:strokeWidth="0.6"
+        android:fillColor="#00000000" />
+
+    <!-- Pentagono central -->
+    <path
+        android:pathData="M12,8.6 L15,10.6 L13.85,14.4 L10.15,14.4 L9,10.6 Z"
+        android:fillColor="#212121" />
+
+    <!-- Pentagono superior -->
+    <path
+        android:pathData="M12,2.6 L14.3,4.3 L13.4,7.0 L10.6,7.0 L9.7,4.3 Z"
+        android:fillColor="#212121" />
+
+    <!-- Pentagono izquierdo -->
+    <path
+        android:pathData="M4.3,9.0 L6.9,8.0 L8.6,10.2 L7.4,12.7 L4.7,12.0 Z"
+        android:fillColor="#212121" />
+
+    <!-- Pentagono derecho -->
+    <path
+        android:pathData="M19.7,9.0 L17.1,8.0 L15.4,10.2 L16.6,12.7 L19.3,12.0 Z"
+        android:fillColor="#212121" />
+
+    <!-- Pentagono inferior izquierdo -->
+    <path
+        android:pathData="M7.2,19.4 L6.5,16.7 L8.7,14.9 L11.0,16.4 L10.1,19.0 Z"
+        android:fillColor="#212121" />
+
+    <!-- Pentagono inferior derecho -->
+    <path
+        android:pathData="M16.8,19.4 L17.5,16.7 L15.3,14.9 L13.0,16.4 L13.9,19.0 Z"
+        android:fillColor="#212121" />
+
+</vector>

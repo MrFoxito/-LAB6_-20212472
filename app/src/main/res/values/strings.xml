@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Mundial Tracker</string>
+
+    <!-- Login -->
+    <string name="login_title">Mundial Tracker</string>
+    <string name="login_subtitle">Sigue tus pronósticos del Mundial</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="btn_login_google">Continuar con Google</string>
+    <string name="btn_login_github">Continuar con GitHub</string>
+    <string name="label_or">O</string>
+    <string name="no_account_yet">¿No tienes una cuenta?</string>
+    <string name="btn_go_register">Regístrate</string>
+
+    <!-- Registro -->
+    <string name="register_title">Crear cuenta</string>
+    <string name="register_subtitle">Regístrate para guardar tus pronósticos</string>
+    <string name="hint_confirm_password">Confirmar contraseña</string>
+    <string name="btn_register">Registrarme</string>
+    <string name="already_have_account">¿Ya tienes una cuenta?</string>
+    <string name="btn_go_login">Inicia sesión</string>
+
+    <!-- Validaciones / errores -->
+    <string name="error_field_required">Este campo es obligatorio</string>
+    <string name="error_invalid_email">Ingresa un correo válido</string>
+    <string name="error_password_length">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="error_password_mismatch">Las contraseñas no coinciden</string>
+    <string name="error_login_failed">No se pudo iniciar sesión. Verifica tus credenciales</string>
+    <string name="error_register_failed">No se pudo completar el registro</string>
+    <string name="error_email_in_use">Ese correo ya está registrado</string>
+    <string name="success_register">Cuenta creada correctamente</string>
+    <string name="error_social_login_failed">No se pudo iniciar sesión con el proveedor seleccionado</string>
+    <string name="error_account_exists_different_credential">Ya existe una cuenta con este correo usando otro método de inicio de sesión</string>
+
+    <!-- Navegación principal -->
+    <string name="nav_pronosticos">Mis Pronósticos</string>
+    <string name="nav_estadisticas">Estadísticas</string>
+    <string name="nav_logout">Cerrar Sesión</string>
+
+    <string name="placeholder_pronosticos">Aquí se mostrarán tus pronósticos del Mundial.</string>
+    <string name="placeholder_estadisticas">Aquí se mostrarán las estadísticas del Mundial.</string>
+
+    <!-- Pronósticos: lista -->
+    <string name="empty_pronosticos">Aún no tienes pronósticos registrados.\nToca el botón + para agregar el primero.</string>
+    <string name="btn_editar">Editar</string>
+    <string name="btn_eliminar">Eliminar</string>
+    <string name="resultado_pronosticado">Resultado pronosticado: %1$d - %2$d</string>
+    <string name="fecha_label">Fecha: %1$s</string>
+    <string name="equipos_vs">%1$s vs %2$s</string>
+
+    <!-- Pronósticos: estados -->
+    <string name="estado_pendiente">Pendiente</string>
+    <string name="estado_acertado">Acertado</string>
+    <string name="estado_fallado">Fallado</string>
+    <string name="label_estado">Estado</string>
+
+    <!-- Pronósticos: diálogo registrar/editar -->
+    <string name="title_registrar_pronostico">Registrar Pronóstico</string>
+    <string name="title_editar_pronostico">Editar Pronóstico</string>
+    <string name="hint_seleccion_a">Selección A</string>
+    <string name="hint_seleccion_b">Selección B</string>
+    <string name="hint_fecha">Fecha del partido</string>
+    <string name="hint_goles_a">Goles A</string>
+    <string name="hint_goles_b">Goles B</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_cancelar">Cancelar</string>
+
+    <!-- Pronósticos: validaciones -->
+    <string name="error_selecciones_iguales">Selección A y Selección B no pueden ser iguales</string>
+    <string name="error_fecha_required">Selecciona la fecha del partido</string>
+    <string name="error_goles_required">Ingresa un valor válido (0 o más)</string>
+
+    <!-- Pronósticos: mensajes de éxito -->
+    <string name="success_pronostico_registrado">Pronóstico registrado correctamente</string>
+    <string name="success_pronostico_actualizado">Pronóstico actualizado correctamente</string>
+    <string name="error_pronostico_guardar">No se pudo guardar el pronóstico</string>
+    <string name="error_pronostico_eliminar">No se pudo eliminar el pronóstico</string>
+
+    <!-- Pronósticos: eliminar -->
+    <string name="confirm_eliminar_titulo">Eliminar pronóstico</string>
+    <string name="confirm_eliminar_mensaje">¿Estás seguro de que deseas eliminar este pronóstico? Esta acción no se puede deshacer.</string>
+
+    <!-- Estadísticas -->
+    <string name="title_estadisticas">Resumen de tus pronósticos</string>
+    <string name="label_total">Total</string>
+    <string name="label_pendientes">Pendientes</string>
+    <string name="label_acertados">Acertados</string>
+    <string name="label_fallados">Fallados</string>
+    <string name="label_distribucion">Distribución de resultados</string>
+    <string name="stats_porcentaje_acierto">Porcentaje de acierto: %1$d%%</string>
+    <string name="empty_estadisticas">Aún no tienes pronósticos registrados.\nRegistra uno para ver tus estadísticas.</string>
+</resources>

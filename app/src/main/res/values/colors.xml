@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Paleta "Mundial" -->
+    <color name="primary_green">#1B5E20</color>
+    <color name="primary_green_dark">#0D3B10</color>
+    <color name="primary_green_light">#43A047</color>
+    <color name="accent_gold">#FFC107</color>
+
+    <color name="background_light">#F5F5F5</color>
+    <color name="text_dark">#212121</color>
+    <color name="text_secondary">#666666</color>
+    <color name="error_red">#D32F2F</color>
+
+    <!-- Estados de pronóstico -->
+    <color name="estado_pendiente">#FFA000</color>
+    <color name="estado_acertado">#2E7D32</color>
+    <color name="estado_fallado">#C62828</color>
+</resources>
