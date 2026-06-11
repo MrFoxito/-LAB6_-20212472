@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "652200752522",
+    "project_id": "mundial-tracker-lab6",
+    "storage_bucket": "mundial-tracker-lab6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652200752522:android:ac46d6c8df16abe7e68473",
+        "android_client_info": {
+          "package_name": "com.example.lab6_20212472"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652200752522-ts5cq07ghjb5dlqvrm065ivt54f8c88o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lab6_20212472",
+            "certificate_hash": "f5bd6950f4c60d051ee3e8607efcb8c0546e9df8"
+          }
+        },
+        {
+          "client_id": "652200752522-99akfphtgkscdvrehvn4cut0bbb7420k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9RqD6LrEI30NAZS0EpU3G9JT7zHRFnCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652200752522-99akfphtgkscdvrehvn4cut0bbb7420k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
